@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Еңбекті қорғау — EK 4304</title>
+  <meta name="description" content="Әбілқас Сағынов атындағы Қарағанды техникалық университеті. Еңбекті қорғау пәні: тақырыптар, зертхана және алғашқы көмек.">
+  <meta name="theme-color" content="#08120f">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Негізгіге өту</a>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#top">
+        <img src="logo.jpg" width="54" height="54" alt="Кафедра белгісі" data-i18n-alt="logoAlt">
+        <span>
+          <strong data-i18n="logo">Еңбекті қорғау</strong>
+          <small>EK 4304</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span class="sr" data-i18n="menu">Мәзір</span>
+      </button>
+      <nav id="site-nav" class="nav">
+        <a href="#about" data-i18n="navAbout">Пән</a>
+        <a href="#plan" data-i18n="navPlan">Жоспар</a>
+        <a href="#labs" data-i18n="navLabs">Зертхана</a>
+        <a href="#aid" data-i18n="navAid">Көмек</a>
+        <a href="#check" data-i18n="navCheck">Тексеру</a>
+      </nav>
+      <div class="langs" role="group" aria-label="Language">
+        <button type="button" data-set-lang="kk">ҚАЗ</button>
+        <button type="button" data-set-lang="ru">РУС</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="kicker" data-i18n="kicker">6B06301 · Ақпараттық қауіпсіздік жүйелері</p>
+          <h1 data-i18n="heroTitle">Еңбекті қорғау</h1>
+          <p class="lede" data-i18n="heroLead"></p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#about" data-i18n="ctaAbout">Пәнді түсіну</a>
+            <a class="btn btn-ghost" href="#labs" data-i18n="ctaLabs">8 зертхана</a>
+            <a class="btn btn-ghost" href="#aid" data-i18n="ctaAid">Алғашқы көмек</a>
+          </div>
+          <ul class="stats">
+            <li><b>5</b><span data-i18n="statCredit">кредит</span></li>
+            <li><b>30</b><span data-i18n="statLec">дәріс</span></li>
+            <li><b>15</b><span data-i18n="statPrac">практика</span></li>
+            <li><b>15</b><span data-i18n="statLab">зертхана</span></li>
+          </ul>
+        </div>
+        <div class="visual">
+          <canvas id="helmet" data-i18n-aria="helmetAria"></canvas>
+          <div class="css-helmet" id="css-helmet" hidden>
+            <div class="css-helmet-inner">
+              <div class="css-dome"></div>
+              <div class="css-brim"></div>
+              <div class="css-lamp"></div>
+            </div>
+          </div>
+          <p class="drag-hint" data-i18n="dragHint">Касканы сүйреп айналдырыңыз</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker" data-i18n="aboutKicker">Белгі не дейді</p>
+          <h2 data-i18n="aboutTitle">Үш шеңбер — пәннің тірегі</h2>
+        </div>
+        <div class="identity">
+          <img src="logo.jpg" width="116" height="116" alt="" data-i18n-alt="logoAlt">
+          <p class="lede" data-i18n="iconLead" style="margin:0"></p>
+        </div>
+        <div class="pillars">
+          <article class="pillar health"><b data-i18n="pHealth">Денсаулық</b><span data-i18n="pHealthText"></span></article>
+          <article class="pillar env"><b data-i18n="pEnv">Қоршаған орта</b><span data-i18n="pEnvText"></span></article>
+          <article class="pillar safe"><b data-i18n="pSafe">Қауіпсіздік</b><span data-i18n="pSafeText"></span></article>
+        </div>
+        <div class="grid-2" style="margin-top:18px">
+          <article class="card">
+            <h3 data-i18n="goalTitle">Мақсаты</h3>
+            <p data-i18n="goalText"></p>
+            <h3 data-i18n="taskTitle">Міндеті</h3>
+            <ol class="tasks">
+              <li data-i18n="task1"></li>
+              <li data-i18n="task2"></li>
+              <li data-i18n="task3"></li>
+              <li data-i18n="task4"></li>
+            </ol>
+          </article>
+          <div>
+            <article class="card outcomes">
+              <h3 data-i18n="outcomeTitle">Оқыған соң не білесіз</h3>
+              <ol class="tasks">
+                <li data-i18n="out1"></li>
+                <li data-i18n="out2"></li>
+                <li data-i18n="out3"></li>
+                <li data-i18n="out4"></li>
+              </ol>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="plan">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker" data-i18n="planKicker">9-бөлім · тақырыптық жоспар</p>
+          <h2 data-i18n="planTitle">Дәрісте не өтесіз</h2>
+          <p class="lede" data-i18n="planLead"></p>
+        </div>
+        <div class="plan-layout">
+          <div class="topic-list" id="topic-list"></div>
+          <article class="topic-detail" id="topic-detail"></article>
+        </div>
+        <div class="card" style="margin-top:18px">
+          <h3 data-i18n="selfTitle">Өзіндік жұмыста</h3>
+          <ol class="self">
+            <li data-i18n="self1"></li>
+            <li data-i18n="self2"></li>
+            <li data-i18n="self3"></li>
+            <li data-i18n="self4"></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="labs">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker" data-i18n="labsKicker">10-бөлім · 15 сағат</p>
+          <h2 data-i18n="labsTitle">Зертханада нені өлшейсіз</h2>
+          <p class="lede" data-i18n="labsLead"></p>
+        </div>
+        <div class="stage" id="stage"><div class="ring" id="ring"></div></div>
+        <div class="carousel-nav">
+          <button class="btn btn-ghost" type="button" id="lab-prev" data-i18n="prev">Артқа</button>
+          <button class="btn btn-primary" type="button" id="lab-next" data-i18n="next">Келесі</button>
+        </div>
+        <article class="lab-detail" id="lab-detail"></article>
+      </div>
+    </section>
+
+    <section class="section" id="aid">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker" data-i18n="aidKicker">Тәжірибелік блок</p>
+          <h2 data-i18n="aidTitle">Алғашқы көмек қалай көрсетіледі</h2>
+          <p class="lede" data-i18n="aidLead"></p>
+        </div>
+        <ol class="aid-flow">
+          <li data-i18n="flow1">Қауіпсіздік</li>
+          <li data-i18n="flow2">103 / 112</li>
+          <li data-i18n="flow3">Есін тексеру</li>
+          <li data-i18n="flow4">Тынысын қарау</li>
+          <li data-i18n="flow5">Көмек қадамы</li>
+        </ol>
+        <div class="hotline">
+          <a href="tel:103"><b>103</b><span data-i18n="ambulance">Жедел жәрдем</span></a>
+          <a href="tel:112"><b>112</b><span data-i18n="unified">Бірыңғай нөмір</span></a>
+        </div>
+        <div class="aid-layout">
+          <div class="aid-tabs" id="aid-tabs" role="tablist"></div>
+          <article class="protocol" id="protocol"></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="check">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker" data-i18n="checkKicker">Қысқа тексеру</p>
+          <h2 data-i18n="checkTitle">Пән сізге түсінікті ме</h2>
+        </div>
+        <div class="card quiz-card" id="quiz"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="brand">
+        <img src="logo.jpg" width="84" height="84" alt="" data-i18n-alt="logoAlt">
+        <div>
+          <strong data-i18n="footerDept"></strong>
+          <p data-i18n="footerFac" style="margin:4px 0 0"></p>
+        </div>
+      </div>
+      <p data-i18n="footerNote" style="max-width:28rem"></p>
+    </div>
+  </footer>
+
+  <script src="vendor/three.min.js"></script>
+  <script src="scene.js"></script>
+  <script src="labs-detail.js?v=3"></script>
+  <script src="app.js?v=3"></script>
+</body>
+</html>
